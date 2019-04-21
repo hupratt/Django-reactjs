@@ -1,7 +1,8 @@
 # Reactify Django
 
 A try at integrating django with the popular JS library
-Source files: https://github.com/codingforentrepreneurs/Reactify-Django
+
+<a href="https://github.com/codingforentrepreneurs/Reactify-Django">Source files</a>
 
 #### Tech
 - Django
