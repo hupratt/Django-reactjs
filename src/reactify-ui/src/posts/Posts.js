@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "whatwg-fetch";
-import cookie from "react-cookies";
+// import cookie from "react-cookies";
 import PostInline from "./Postinline";
 
 class Posts extends Component {
@@ -23,11 +23,9 @@ class Posts extends Component {
         {posts.length > 0 ? (
           posts.map((postItem, index) => {
             return (
-              <PostInline
-                post={postItem}
-                elClass={postsListClass}
-                key={posts.key}
-              />
+              <li key={index}>
+                <PostInline post={postItem} elClass={postsListClass} />
+              </li>
             );
           })
         ) : (
